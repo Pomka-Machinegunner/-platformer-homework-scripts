@@ -7,11 +7,6 @@ public class RotateToTargetEuler : MonoBehaviour
     [SerializeField] Vector3 _targetEuler;
     [SerializeField] float _speedRotation = 1f;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         LerpRotator();
